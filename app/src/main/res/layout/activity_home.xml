@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Monday -->
+    <LinearLayout
+        android:id="@+id/llMonday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Monday"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnMondayPlus"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="+ Add Exercise"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <!-- Tuesday -->
+    <LinearLayout
+        android:id="@+id/llTuesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/llMonday"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuesday"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btnTuesdayPlus"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="+ Add Exercise"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <!-- Wednesday -->
+    <LinearLayout
+        android:id="@+id/llWednesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/llTuesday"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wednesday"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btnWednesdayPlus"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="+ Add Exercise"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <!-- Thursday -->
+    <LinearLayout
+        android:id="@+id/llThursday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/llWednesday"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thursday"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btnThursdayPlus"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="+ Add Exercise"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <!-- Friday -->
+    <LinearLayout
+        android:id="@+id/llFriday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/llThursday"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friday"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btnFridayPlus"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="+ Add Exercise"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <!-- Saturday -->
+    <LinearLayout
+        android:id="@+id/llSaturday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/llFriday"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saturday"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btnSaturdayPlus"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="+ Add Exercise"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <!-- Sunday -->
+    <LinearLayout
+        android:id="@+id/llSunday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/llSaturday"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:background="@android:color/darker_gray">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sunday"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btnSundayPlus"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="+ Add Exercise"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <!-- Struggling TextView -->
+    <TextView
+        android:id="@+id/tvStruggling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Struggling to find the right exercise? Click here for suggestions."
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_purple"
+        android:layout_below="@id/llSunday"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:clickable="true"/>
+</RelativeLayout>
+</ScrollView>

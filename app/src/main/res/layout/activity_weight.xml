@@ -1,0 +1,80 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Age, Height, Weight UI elements -->
+
+    <RelativeLayout
+        android:id="@+id/rlTellUsAboutYourself"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextAge"
+        android:layout_marginTop="99dp"
+        android:background="@android:color/transparent"
+        android:padding="16dp"
+        tools:ignore="NotSibling">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:padding="16dp"
+            android:text="Tell us about yourself"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginTop="16dp"
+            android:hint="Weight (kg)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editTextHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextWeight"
+            android:layout_marginTop="16dp"
+            android:hint="Height (cm)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editTextAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextHeight"
+            android:layout_marginTop="16dp"
+            android:hint="Age"
+            android:inputType="number" />
+
+        <!-- Exercise Intensity Spinner -->
+
+        <Spinner
+            android:id="@+id/spinnerExerciseType"
+            style="@style/SpinnerTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextAge"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@android:color/holo_purple"
+            android:entries="@array/exercise_types"
+            android:spinnerMode="dropdown" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinnerExerciseType"
+            android:layout_marginTop="16dp"
+            android:text="Submit" />
+    </RelativeLayout>
+
+</RelativeLayout>
+
+

@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Your existing styles -->
+
+    <style name="SpinnerTheme" parent="Widget.AppCompat.Spinner.DropDown">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:popupBackground">@android:color/white</item>
+        <item name="android:dropDownSelector">@android:color/holo_purple</item>
+    </style>
+</resources>
