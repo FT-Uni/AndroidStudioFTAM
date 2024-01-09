@@ -18,6 +18,7 @@ class ExerciseListActivity : AppCompatActivity() {
         dbHelper = DatabaseHelper(this)
 
         val exercisesList = dbHelper.getAllExercises()
+        val btnDone = findViewById<TextView>(R.id.btnDone)
 
         recyclerView = findViewById(R.id.recyclerViewExerciseList)
         exerciseAdapter = ExerciseAdapter(exercisesList)
@@ -25,6 +26,12 @@ class ExerciseListActivity : AppCompatActivity() {
         recyclerView.apply {
             layoutManager = LinearLayoutManager(this@ExerciseListActivity)
             adapter = exerciseAdapter
+        }
+
+        btnDone.setOnClickListener {
+            val intent = Intent(this, HomeActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }
