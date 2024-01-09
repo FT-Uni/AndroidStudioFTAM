@@ -16,6 +16,28 @@ class HomeActivity : AppCompatActivity() {
             val intent = Intent(this, ExerciseListActivity::class.java)
             startActivity(intent)
         }
+        
+/*        findViewById<Button>(R.id.btnMondayPlus).setOnClickListener {
+            val intent = Intent(this, ExerciseListActivity::class.java)
+            startActivity(intent)
+        }
+        findViewById<Button>(R.id.btnMondayPlus).setOnClickListener {
+            val intent = Intent(this, ExerciseListActivity::class.java)
+            startActivity(intent)
+        }
+        findViewById<Button>(R.id.btnMondayPlus).setOnClickListener {
+            val intent = Intent(this, ExerciseListActivity::class.java)
+            startActivity(intent)
+        }
+        findViewById<Button>(R.id.btnMondayPlus).setOnClickListener {
+            val intent = Intent(this, ExerciseListActivity::class.java)
+            startActivity(intent)
+        }
+        findViewById<Button>(R.id.btnMondayPlus).setOnClickListener {
+            val intent = Intent(this, ExerciseListActivity::class.java)
+            startActivity(intent)
+        }*/
+
     }
 }
 
