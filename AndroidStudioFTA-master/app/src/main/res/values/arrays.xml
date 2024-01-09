@@ -1,7 +1,0 @@
-<resources>
-    <string-array name="exercise_types">
-        <item>Intense</item>
-        <item>Moderate</item>
-    </string-array>
-
-</resources>
